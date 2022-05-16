@@ -13,6 +13,10 @@ git add --all
 git commit -m 描述信息
 # 简化远程仓库
 git remote add 自定义名 远程仓库地址
+# 查看远程仓库
+git remote -v
+# 查看远程分支
+git branch -a
 # 拉取,不包含文件夹(项目名)
 git pull 远程仓库地址
 # 推送
