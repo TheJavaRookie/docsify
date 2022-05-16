@@ -46,3 +46,24 @@
 3. 选择：`打开侧边预览`
 4. 按键：`CTRL + K` 
 5. 按键：`V`
+
+# git 操作
+1. 添加到暂存区
+   ```bash
+   git add --all
+   ```
+   
+2. 添加到本地仓库
+
+   ```bash
+   git commit -m "描述"
+   ```
+
+3. 推送到远程仓库
+
+   ```bash
+   git push git@github.com:TheJavaRookie/docsify.git
+   ```
+
+   
+
